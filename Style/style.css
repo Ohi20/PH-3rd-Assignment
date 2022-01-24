@@ -1,0 +1,47 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f5f6ff;
+}
+.convention-btn2{
+    background-color:#fffdfa;
+    color:#4a4f74;
+    
+}
+.convention-btn{
+    background-color: #4a4f74;
+    color: white;
+    padding:6px 10px;
+    border-radius: 100px;
+    border:none;
+}
+.convention-btn1{
+    background-color: #fffdfa;;
+    padding:6px 10px;
+    border-radius: 100px;
+    border:none;
+}
+.subscribe-btn{
+    background-color: #4a4f74;
+    color: white;
+    padding:6px 226px;
+    border-radius: 100px;
+    border:none;
+}
+.covention-card-border{
+    border-radius: 15px;
+}
+.modal-confirm-btn{
+    background-color: #fffdfa;
+    color:#4a4f74;
+    padding:6px 10px;
+    border-radius: 100px;
+    border:none;
+}
+.modal-cancel-btn{
+    background-color: #4a4f74;
+    color:#fffdfa;
+    padding:6px 10px;
+    border-radius: 100px ;
+    stroke: white;
+}
+

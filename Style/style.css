@@ -1,8 +1,9 @@
+/* added font and background color */
 body{
     font-family: 'Ubuntu', sans-serif;
     background-color: #f5f6ff;
 }
-
+/* card button */
 .convention-btn{
     background-color: #4a4f74;
     color: white;
@@ -10,12 +11,14 @@ body{
     border-radius: 100px;
     border:none;
 }
+/* random */
 .convention-btn1{
     background-color: #fffdfa;;
     padding:6px 10px;
     border-radius: 100px;
     border:none;
 }
+/* subscribe button in form */
 .subscribe-btn{
     background-color: #4a4f74;
     color: white;
@@ -26,6 +29,7 @@ body{
 .covention-card-border{
     border-radius: 15px;
 }
+/* Modal buttons */
 .modal-confirm-btn{
     background-color: #fffdfa;
     color:#4a4f74;

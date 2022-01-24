@@ -117,55 +117,6 @@
     </section>
   </header>
   <main>
-    <section class="container my-5">
-      <!-- <div class="row"> 
-        <div class="col-6">
-          <img class="container-fluid" src="images/wedding.png" alt="">
-        </div>
-        <div class="col-6 d-flex justify-content-center align-items-center">
-          <div>
-            <h1>Every moment is Precious </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptate laboriosam, architecto
-              reiciendis ea repellat.</p>
-            <button class="convention-btn">Explore Our Album</button>
-          </div>
-
-        </div> -->
-      </div>
-      <div aria-live="polite" aria-atomic="true" class="position-relative">
-        <!-- Position it: -->
-        <!-- - `.toast-container` for spacing between toasts -->
-        <!-- - `.position-absolute`, `top-0` & `end-0` to position the toasts in the upper right corner -->
-        <!-- - `.p-3` to prevent the toasts from sticking to the edge of the container  -->
-        <div class="toast-container position-absolute top-0 end-0 p-3">
-
-          <!-- Then put toasts within -->
-          <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-              <img src="..." class="rounded me-2" alt="...">
-              <strong class="me-auto">Bootstrap</strong>
-              <small class="text-muted">just now</small>
-              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body">
-              See? Just like this.
-            </div>
-          </div>
-
-          <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-              <img src="..." class="rounded me-2" alt="...">
-              <strong class="me-auto">Bootstrap</strong>
-              <small class="text-muted">2 seconds ago</small>
-              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body">
-              Heads up, toasts will stack automatically
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-----------------
        Card Section
@@ -278,6 +229,40 @@
       </div>
     </section>
 
+    <!---------------
+      ---- Toasts ---
+    ----------------->
+
+    <section class="mb-5">
+      </div>
+      <div aria-live="polite" aria-atomic="true" class="position-relative">
+        <div class="toast-container position-absolute top-0 end-0 p-3">
+          <!-- Then put toasts within -->
+          <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <strong class="me-auto">Hello!</strong>
+              <small class="text-muted">just now</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              Got trouble? Have questions?
+            </div>
+          </div>
+          <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <img src="..." class="rounded me-2" alt="...">
+              <strong class="me-auto">Bootstrap</strong>
+              <small class="text-muted">2 seconds ago</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              Heads up, toasts will stack automatically
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-----------------
        FAQ Section
     ------------------>
@@ -359,16 +344,18 @@
           </div>
         </div>
         <div class="col-6">
-          <img class="img-fluid mt-3" style="max-width: 120%; height: auto;" src="images/people.png" alt="">
+          <img class="img-fluid mt-3" height: auto; src="images/people.png" alt="">
         </div>
       </div>
     </section>
 
-    <!-- Extra Section -->
+    <!-------------------
+    ----Extra Section----
+    ----------------- -->
 
-    <section class="container my-5">
+    <section class="container container-fluid my-5">
       <h1 class="text-center">Useful Articles</h1>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row  g-4">
         <div class="col">
           <div class="card h-100">
             <img src="images/1.jpg" alt="">
@@ -415,7 +402,34 @@
           </li>
         </ul>
       </nav>
-      <div class="card container" style="width: 600px;">
+      <div class="text-center">
+        <div class="spinner-grow text-primary " role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-secondary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-success" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-danger" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-warning" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-info" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-info" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-dark" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+
+      <div class="card container">
 
         <div class="card-body ">
           <h4 class="text-center">Let's keep in touch</h5>
@@ -444,9 +458,12 @@
                 aria-valuemin="0" aria-valuemax="100">25%</div>
             </div>
             <!-- Button trigger modal -->
-            <button type="button" class="subscribe-btn my-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Subscribe
-            </button>
+            <div class=" text-center">
+              <button type="button" class="subscribe-btn my-3 " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Subscribe
+              </button>
+            </div>
+
 
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"

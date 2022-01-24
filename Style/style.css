@@ -2,11 +2,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
     background-color: #f5f6ff;
 }
-.convention-btn2{
-    background-color:#fffdfa;
-    color:#4a4f74;
-    
-}
+
 .convention-btn{
     background-color: #4a4f74;
     color: white;
@@ -23,7 +19,7 @@ body{
 .subscribe-btn{
     background-color: #4a4f74;
     color: white;
-    padding:6px 226px;
+    padding:6px 90px;
     border-radius: 100px;
     border:none;
 }
